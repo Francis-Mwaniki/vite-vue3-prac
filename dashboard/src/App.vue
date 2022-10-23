@@ -3,21 +3,13 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <header>
-    <div></div>
-  </header>
+  <main class="bg-slate-700">
+    <header>
+      <div></div>
+    </header>
 
-  <RouterView />
+    <RouterView />
+  </main>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-</style>
+<style scoped></style>

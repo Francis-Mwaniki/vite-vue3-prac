@@ -25,22 +25,24 @@
         <div
           class="flex mx-auto flex-grow mt-4 flex-col text-gray-400 space-y-4"
         >
-          <button
-            class="h-10 w-12 dark:text-gray-500 rounded-md flex items-center justify-center"
-          >
-            <svg
-              viewBox="0 0 24 24"
-              class="h-5"
-              stroke="currentColor"
-              stroke-width="2"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+          <router-link to="/about">
+            <button
+              class="h-10 w-12 dark:text-gray-500 rounded-md flex items-center justify-center"
             >
-              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-              <polyline points="9 22 9 12 15 12 15 22"></polyline>
-            </svg>
-          </button>
+              <svg
+                viewBox="0 0 24 24"
+                class="h-5"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+            </button>
+          </router-link>
           <button
             class="h-10 w-12 dark:bg-gray-700 dark:text-white rounded-md flex items-center justify-center bg-blue-100 text-blue-500"
           >
